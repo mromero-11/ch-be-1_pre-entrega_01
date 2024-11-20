@@ -1,22 +1,12 @@
 [
   {
-    "id": "ea4921ad-3608-487c-91d4-35e828afba8f",
-    "code": "PROD001",
-    "title": "Wireless Mouse",
-    "description": "A high-quality wireless mouse with ergonomic design.",
-    "category": "Accessories",
-    "price": 25.99,
-    "stock": 50,
-    "status": true
-  },
-  {
     "id": "09a7f33e-e32b-47e1-b8c0-e6e6e93a5710",
     "code": "PROD001",
     "title": "Wireless Mouse",
     "description": "A high-quality wireless mouse with ergonomic design.",
     "category": "Accessories",
     "price": 25.99,
-    "stock": 50,
+    "stock": 101,
     "status": true
   },
   {

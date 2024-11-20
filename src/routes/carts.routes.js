@@ -7,10 +7,10 @@ const cartManager = new CartManager();
 //  get cart by id
 router.get('/:cid', async (req, res) => {
     try {
-        const cartId = req.params.pid;
+        const cartId = req.params.cid;
         const cart = await cartManager.getCartById(cartId);
         return cart
-            ? res.json(cart.products)
+            ? res.json(cart)
             : res.status(404).json({ error: 'Carrito no encontrado' });
     } catch (error) {
         console.error(error);

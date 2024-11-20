@@ -16,10 +16,10 @@ export default class CartManager {
     async loadFile() {
         try {
             const data = await fs.readFile(cartsFile, 'utf-8');
-            this.cart = JSON.parse(data);
+            this.carts = JSON.parse(data);
         } catch (error) {
             console.error('Error al leer el archivo de carritos:', error.message);
-            this.cart = [];
+            this.carts = [];
         }
     }
 
@@ -41,9 +41,9 @@ export default class CartManager {
                 id: randomUUID(),
                 products: [],
             };
-
+            
             this.carts.push(newCart);
-
+            
             await this.saveFile();
 
             return newCart;
