@@ -1,6 +1,6 @@
 import express from 'express';
 import productsRoutes from './routes/products.routes.js';
-import cartRoutes from './routes/cart.routes.js';
+import cartRoutes from './routes/carts.routes.js';
 
 //  server
 const app = express();
@@ -16,7 +16,7 @@ app.get('/ping', (req, res) => {
 
 //  routes
 app.use('/api/products', productsRoutes)
-app.use('/api/cart', cartRoutes)
+app.use('/api/carts', cartsRoutes)
 
 //  set port & run server
 const PORT = 8080;
