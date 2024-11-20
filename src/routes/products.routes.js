@@ -44,7 +44,7 @@ router.post('/', async (req, res) => {
 //  update product by id
 router.put('/:pid', async (req, res) => {
     try {
-        const productId = parseInt(req.params.pid);
+        const productId = req.params.pid;
         const updatedProduct = await productManager.updateProduct(productId, req.body);
         return updatedProduct 
             ? res.json(updatedProduct) 
@@ -58,7 +58,7 @@ router.put('/:pid', async (req, res) => {
 //  delete product by id
 router.delete('/:pid', async (req, res) => {
     try {
-        const productId = parseInt(req.params.pid);
+        const productId = req.params.pid;
         const deletedProduct = await productManager.deleteProduct(productId);
         return deletedProduct 
             ? res.json(deletedProduct) 

@@ -1,1 +1,32 @@
-[]
+[
+  {
+    "id": "ea4921ad-3608-487c-91d4-35e828afba8f",
+    "code": "PROD001",
+    "title": "Wireless Mouse",
+    "description": "A high-quality wireless mouse with ergonomic design.",
+    "category": "Accessories",
+    "price": 25.99,
+    "stock": 50,
+    "status": true
+  },
+  {
+    "id": "09a7f33e-e32b-47e1-b8c0-e6e6e93a5710",
+    "code": "PROD001",
+    "title": "Wireless Mouse",
+    "description": "A high-quality wireless mouse with ergonomic design.",
+    "category": "Accessories",
+    "price": 25.99,
+    "stock": 50,
+    "status": true
+  },
+  {
+    "id": "64441536-77f6-4557-9254-f4e60a9d18f6",
+    "code": "PROD002",
+    "title": "Mechanical Keyboard",
+    "description": "A durable mechanical keyboard with RGB lighting.",
+    "category": "Accessories",
+    "price": 79.99,
+    "stock": 30,
+    "status": true
+  }
+]
